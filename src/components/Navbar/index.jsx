@@ -17,7 +17,7 @@ export default function Example() {
         <div>
           <nav className="flex h-9 items-center justify-between" aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">Max Vinícius</span>
                 <p className='font-bold text-2xl md:text-2xl lg:text-3xl text-center md:text-left'>
                   Max Vinícius
@@ -44,7 +44,7 @@ export default function Example() {
             <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
-                  <a href="#" className="-m-1.5 p-1.5">
+                  <a href="/" className="-m-1.5 p-1.5">
                     <span className="sr-only">Max Vinícius</span>
                     <p className='font-bold text-2xl md:text-2xl lg:text-3xl text-center md:text-left'>
                       Max Vinícius
@@ -76,12 +76,11 @@ export default function Example() {
                     ))}
                   </div>
                   <div className="py-6">
-                    <a
-                      href="#"
+                    <div
                       className="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10"
                     >
                       <Footer />
-                    </a>
+                    </div>
                   </div>
                 </div>
               </div>
