@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Footer from '../Footer'
 
 const navigation = [
-  { name: 'About', href: '#' },
+  { name: 'About', href: 'https://github.com/MaxFullStack/blog-front' },
 ]
 
 export default function Example() {
@@ -35,7 +35,7 @@ export default function Example() {
               </button>
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-              <a href={navigation[0].href} className="font-semibold text-gray-900 hover:text-gray-900">
+              <a href="https://github.com/MaxFullStack/blog-front" target="_blank" rel="noopener noreferrer" className="font-semibold text-gray-900 hover:text-gray-900">
                 About
               </a>
             </div>
